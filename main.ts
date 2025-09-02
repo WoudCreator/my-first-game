@@ -1,3 +1,6 @@
+controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
+    controller.moveSprite(mySprite, 100, 100)
+})
 let mySprite: Sprite = null
 let mySprite2: Sprite = null
 scene.setBackgroundImage(img`
